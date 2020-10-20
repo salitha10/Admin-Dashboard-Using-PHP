@@ -1,0 +1,120 @@
+/*Tables*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: 0;
+    
+}
+.tables{
+    display: block;
+}
+
+table{
+border-collapse: collapse;
+width: 100%;
+color: #588c7e;
+font-family: monospace;
+font-size: 25px;
+text-align: left;
+width: 80%;
+height: auto;
+margin:0 10%;
+text-align: center;
+}
+th{
+background-color: #588c7e;
+color: white;
+}
+tr:nth-child(even) 
+{
+background-color: #f2f2f2;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+.actions{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 5px; 
+    position: relative;
+}
+
+button{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background 0.1s ease-in-out;
+}
+button:hover{
+    background-color: yellowgreen;
+}
+
+/* Pop up window design */
+.popup {
+position: relative;
+text-align: center;
+width: 100%;
+}
+
+/*hide*/
+.form-popup {
+display: none;
+position: fixed;
+transform: translate(-45%,5%);
+border: 2px solid black;
+left: 45%;
+top:5%;
+z-index: 9;
+}
+
+.form-container {
+max-width: 300px;
+padding: 20px;
+background-color: white;
+}
+
+.form-container input[type=number], .form-container input[type=text] {
+background: #eee;
+width: 100%;
+padding: 10px;
+margin: 5px 0 22px 0;
+border: none;
+
+}
+
+.form-container .btn {
+background-color: green;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+color: white;
+padding: 12px 20px;
+border: none;
+cursor: pointer;
+
+}
+
+.form-container .cancel {
+background-color: red;
+}
+/* Hover effects */
+.form-container .btn:hover, .open-button:hover {
+opacity: 1;
+}

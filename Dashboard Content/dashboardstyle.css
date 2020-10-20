@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+.top-cards{
+    margin:5% 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.cards{
+    
+    width: 300px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border-left: 5px solid red;
+    margin: 10px;
+    font-family: 'ABeeZee';
+    
+}
+.cards i{
+    float: right;
+    display: block;
+    margin-top: -80px;
+    margin-left: 20px;
+    padding: 20px;
+    color: darkgray;
+}
+
+.cards p,h2{
+    margin-left: 20px;
+}
+
+.card h2{
+    margin-top: 0px;
+}
+
+.large-cards{
+
+    width: 800px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.large-cards > .title{
+    height: 25px;
+    text-align: center;
+    padding: 4px;
+    background-color:azure;
+    font-family: 'ABeeZee';
+     
+     border: 0.1px solid lightblue;
+}
+
+.c1{
+ border-left: 5px solid blue;  
+}
+.c1 > p{
+ color: blue;
+}
+
+.c2{
+ border-left: 5px solid green;  
+}
+.c2 > p{
+ color: green;
+}
+
+.c3{
+ border-left: 5px solid orange;  
+}
+.c3 > p{
+ color: orange;
+}
+
+
+.layer2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lc1{
+    width: 600px;
+}
+
+.lc2{
+    width: 400px;
+    height: 300px;
+    float: right;
+}
